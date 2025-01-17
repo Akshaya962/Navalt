@@ -1,0 +1,6580 @@
+[
+  {
+    "id": 1,
+    "property_id": 5,
+    "name": "Builder",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null    
+  },
+  {
+    "id": 2,
+    "property_id": 5,
+    "name": "City",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 3,
+    "property_id": 5,
+    "name": "Country",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 4,
+    "property_id": 1,
+    "name": "Vessel Type",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null,
+    "eexi_property_id": 1,
+    "eexi_order": 4.000
+  },
+  {
+    "id": 5,
+    "property_id": 4,
+    "name": "Current Class",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 6,
+    "property_id": 5,
+    "name": "Date of Keel Laying",
+    "order": 6.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 7,
+    "property_id": 1,
+    "name": "Year Built",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": "^[0-9]+$"
+  },
+  {
+    "id": 8,
+    "property_id": 1,
+    "name": "Summer  DWT",
+    "order": 19.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 9,
+    "property_id": 1,
+    "name": "Lightship",
+    "order": 21.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 10,
+    "property_id": 1,
+    "name": "Displacement Scantling ",
+    "order": 17.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 11,
+    "property_id": 1,
+    "name": "Bulbous Bow",
+    "order": 31.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 12,
+    "property_id": 1,
+    "name": "Maximum Speed",
+    "order": 9.000,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": "^[0-9\\.,]+$",
+    "eexi_property_id": 2,
+    "eexi_order": 4.000
+  },
+  {
+    "id": 13,
+    "property_id": 1,
+    "name": "Complement",
+    "order": 33.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 14,
+    "property_id": 1,
+    "name": "Length O.A",
+    "order": 2.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": "^[0-9\\.,]+$",
+    "eexi_property_id": 2,
+    "eexi_order": 1.000
+  },
+  {
+    "id": 15,
+    "property_id": 1,
+    "name": "Length B.P",
+    "order": 4.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null,
+    "eexi_property_id": 2,
+    "eexi_order": 5.000
+  },
+  {
+    "id": 16,
+    "property_id": 1,
+    "name": "Breadth Moulded",
+    "order": 8.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": "^[0-9\\.,]+$",
+    "eexi_property_id": 2,
+    "eexi_order": 2.000
+  },
+  {
+    "id": 17,
+    "property_id": 1,
+    "name": "Breadth Extreme",
+    "order": 6.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 18,
+    "property_id": 1,
+    "name": "Depth Moulded",
+    "order": 11.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null,
+    "eexi_property_id": 2,
+    "eexi_order": 6.000
+  },
+  {
+    "id": 19,
+    "property_id": 1,
+    "name": "Draft Design",
+    "order": 15.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 20,
+    "property_id": 1,
+    "name": "Draft Scantling",
+    "order": 16.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 21,
+    "property_id": 1,
+    "name": "Keel to Mast (KTM)",
+    "order": 16.100,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 22,
+    "property_id": 1,
+    "name": "TEU",
+    "order": 5.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\,]+$"
+  },
+  {
+    "id": 23,
+    "property_id": 1,
+    "name": "Depth Extreme",
+    "order": 9.500,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 24,
+    "property_id": 5,
+    "name": "Date of Steel Cutting",
+    "order": 8.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 25,
+    "property_id": 5,
+    "name": "Date of Delivery",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 26,
+    "property_id": 5,
+    "name": "Date of Delivery to MSC",
+    "order": 9.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 27,
+    "property_id": 4,
+    "name": "Since",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 28,
+    "property_id": 4,
+    "name": "Class Notation",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 29,
+    "property_id": 4,
+    "name": "Class ID",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 30,
+    "property_id": 4,
+    "name": "Previous Class",
+    "order": 5.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 31,
+    "property_id": 19,
+    "name": "Tropical Freeboard",
+    "order": 11.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 32,
+    "property_id": 4,
+    "name": "Period",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 33,
+    "property_id": 4,
+    "name": "Earlier Class",
+    "order": 8.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 34,
+    "property_id": 50,
+    "name": "Turbo Generator Present?",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 35,
+    "property_id": 4,
+    "name": "Period",
+    "order": 10.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 36,
+    "property_id": 14,
+    "name": "Recent Drydock Period",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 37,
+    "property_id": 14,
+    "name": "Shipyard",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 38,
+    "property_id": 14,
+    "name": "City",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 39,
+    "property_id": 14,
+    "name": "Country",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 40,
+    "property_id": 14,
+    "name": "Earlier Drydock Period",
+    "order": 5.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 41,
+    "property_id": 14,
+    "name": "City",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 42,
+    "property_id": 14,
+    "name": "Shipyard",
+    "order": 6.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 43,
+    "property_id": 14,
+    "name": "Country",
+    "order": 8.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 44,
+    "property_id": 14,
+    "name": "Earlier Drydock Period",
+    "order": 9.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 45,
+    "property_id": 14,
+    "name": "Shipyard",
+    "order": 10.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 46,
+    "property_id": 14,
+    "name": "City",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 47,
+    "property_id": 14,
+    "name": "Country",
+    "order": 12.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 48,
+    "property_id": 15,
+    "name": "Special Survey Due Date",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 49,
+    "property_id": 15,
+    "name": "Last Special Survey Date",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 50,
+    "property_id": 15,
+    "name": "Is Above Enhanced Special Survey?",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 51,
+    "property_id": 15,
+    "name": "Earlier Special Survey Date",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 52,
+    "property_id": 15,
+    "name": "Earlier Special Survey Date",
+    "order": 6.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 53,
+    "property_id": 15,
+    "name": "Annual Survey Due Date",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 54,
+    "property_id": 15,
+    "name": "Last Annual Survey Date",
+    "order": 8.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 55,
+    "property_id": 15,
+    "name": "Earlier Annual Survey Date",
+    "order": 9.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 56,
+    "property_id": 15,
+    "name": "Earlier Annual Survey Date",
+    "order": 10.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 57,
+    "property_id": 15,
+    "name": "Earlier Annual Survey Date",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 58,
+    "property_id": 15,
+    "name": "Earlier Annual Survey Date",
+    "order": 12.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 59,
+    "property_id": 15,
+    "name": "CAP Rating",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 60,
+    "property_id": 15,
+    "name": "Continous Machinery Rating",
+    "order": 14.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 61,
+    "property_id": 16,
+    "name": "Name Of Ship",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null,    
+    "eexi_property_id": 1,
+    "eexi_order": 1.000
+  },
+  {
+    "id": 62,
+    "property_id": 16,
+    "name": "LR/IMO No.",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": "^[0-9]+$",
+    "eexi_property_id": 1,
+    "eexi_order": 3.000
+  },
+  {
+    "id": 63,
+    "property_id": 16,
+    "name": "Official No.",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 64,
+    "property_id": 17,
+    "name": "Call Sign",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 65,
+    "property_id": 16,
+    "name": "Owner",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 66,
+    "property_id": 16,
+    "name": "Vessel Manager",
+    "order": 8.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 67,
+    "property_id": 16,
+    "name": "Previous Names",
+    "order": 14.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 68,
+    "property_id": 16,
+    "name": "Date of Name Change",
+    "order": 17.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 69,
+    "property_id": 16,
+    "name": "Earlier Name",
+    "order": 18.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 70,
+    "property_id": 16,
+    "name": "Date of Name Change",
+    "order": 15.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 71,
+    "property_id": 16,
+    "name": "Earlier Name",
+    "order": 16.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 72,
+    "property_id": 16,
+    "name": "Date of Name Change",
+    "order": 19.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 73,
+    "property_id": 16,
+    "name": "Flag",
+    "order": 5.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 74,
+    "property_id": 16,
+    "name": "Port of Registration / Home Port",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 75,
+    "property_id": 16,
+    "name": "Previous Port Of Registry",
+    "order": 20.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 76,
+    "property_id": 17,
+    "name": "INMARSAT V-SAT",
+    "order": 12.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 77,
+    "property_id": 17,
+    "name": "INMARSAT V-SAT",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 78,
+    "property_id": 17,
+    "name": "Master Cellphone No.",
+    "order": 8.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 79,
+    "property_id": 17,
+    "name": "INMARSAT V-SAT",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 80,
+    "property_id": 43,
+    "name": "Max. Reefer vessel carrying capacity (Auxiliary Engine only - On deck)",
+    "order": 2.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 81,
+    "property_id": 17,
+    "name": "Ship's Email ID 1",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 82,
+    "property_id": 16,
+    "name": "ASSIGNED CLUB",
+    "order": 12.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 83,
+    "property_id": 18,
+    "name": "Gross Tonnage",
+    "order": 1.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 84,
+    "property_id": 18,
+    "name": "Net Tonnage",
+    "order": 2.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 85,
+    "property_id": 18,
+    "name": "Panama GRT",
+    "order": 3.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 86,
+    "property_id": 18,
+    "name": "Panama NRT",
+    "order": 4.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 87,
+    "property_id": 18,
+    "name": "Suez GRT",
+    "order": 5.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 88,
+    "property_id": 18,
+    "name": "Suez NRT",
+    "order": 6.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 89,
+    "property_id": 19,
+    "name": "Summer Draft",
+    "order": 2.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 90,
+    "property_id": 19,
+    "name": "Summer DWT",
+    "order": 5.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null,
+    "eexi_property_id": 2,
+    "eexi_order": 3.000
+  },
+  {
+    "id": 91,
+    "property_id": 19,
+    "name": "Summer Displacement",
+    "order": 4.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 92,
+    "property_id": 19,
+    "name": "Winter Draft",
+    "order": 6.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 93,
+    "property_id": 19,
+    "name": "Winter DWT",
+    "order": 9.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 94,
+    "property_id": 19,
+    "name": "Winter Displacement",
+    "order": 8.000,
+    "unit": "T",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 95,
+    "property_id": 19,
+    "name": "Tropical Draft",
+    "order": 10.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 96,
+    "property_id": 19,
+    "name": "Tropical DWT",
+    "order": 13.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 97,
+    "property_id": 19,
+    "name": "Tropical Displacement",
+    "order": 12.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 98,
+    "property_id": 19,
+    "name": "Lightship Draft",
+    "order": 11.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 99,
+    "property_id": 1,
+    "name": "Endurance",
+    "order": 12.000,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 100,
+    "property_id": 19,
+    "name": "Ballast Draft",
+    "order": 14.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 101,
+    "property_id": 19,
+    "name": "Ballast DWT",
+    "order": 16.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 102,
+    "property_id": 19,
+    "name": "Ballast Displacement",
+    "order": 15.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 103,
+    "property_id": 19,
+    "name": "FWA at Scantling Draft",
+    "order": 17.000,
+    "unit": "mm",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 104,
+    "property_id": 20,
+    "name": "Bottom Area",
+    "order": 1.000,
+    "unit": "sq.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 105,
+    "property_id": 20,
+    "name": "Side Area AF",
+    "order": 2.000,
+    "unit": "sq.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 106,
+    "property_id": 20,
+    "name": "Stern Area AF",
+    "order": 3.000,
+    "unit": "sq.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 107,
+    "property_id": 20,
+    "name": "Rudder Area",
+    "order": 4.000,
+    "unit": "sq.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 108,
+    "property_id": 20,
+    "name": "Freeboard Area",
+    "order": 5.000,
+    "unit": "sq.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 109,
+    "property_id": 21,
+    "name": "Area Cargo Holds Coated",
+    "order": 1.000,
+    "unit": "sq.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 110,
+    "property_id": 21,
+    "name": "Area Ballast Tanks Coated",
+    "order": 2.000,
+    "unit": "sq.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 111,
+    "property_id": 21,
+    "name": "If Ballast Tank Coated, to What Extent?",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 112,
+    "property_id": 21,
+    "name": "Condition of Ballast Tank Coating?",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 113,
+    "property_id": 31,
+    "name": "Flat Bottom",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 114,
+    "property_id": 31,
+    "name": "Side Bottom",
+    "order": 8.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 115,
+    "property_id": 31,
+    "name": "Top Side",
+    "order": 9.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 116,
+    "property_id": 31,
+    "name": "Main Deck",
+    "order": 10.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 117,
+    "property_id": 31,
+    "name": "Deckhouse Outside",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 118,
+    "property_id": 31,
+    "name": "Ballast Tank",
+    "order": 12.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 119,
+    "property_id": 31,
+    "name": "Cargo Hold",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 120,
+    "property_id": 31,
+    "name": "Engine Room (W&OH)",
+    "order": 14.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 121,
+    "property_id": 31,
+    "name": "Engine Room Floor",
+    "order": 15.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 122,
+    "property_id": 31,
+    "name": "FW Tanks",
+    "order": 16.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 123,
+    "property_id": 9,
+    "name": "Gear Type (Electric/Hydraulic/Electro-Hydraulic...etc)",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 124,
+    "property_id": 9,
+    "name": "No. Of Provision Cranes",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 125,
+    "property_id": 9,
+    "name": "Reefer Plug",
+    "order": 22.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 126,
+    "property_id": 9,
+    "name": "Life Boat (Open/Closed/Partially Open/Free fall...etc)",
+    "order": 16.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 127,
+    "property_id": 9,
+    "name": "Is Rescue Boat Separate?",
+    "order": 25.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 128,
+    "property_id": 22,
+    "name": "Ballast Tanks",
+    "order": 1.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 129,
+    "property_id": 43,
+    "name": "Max. Reefer vessel carrying capacity (Auxiliary Engine only - In cargo holds)",
+    "order": 3.500,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 130,
+    "property_id": 22,
+    "name": "FW Tank",
+    "order": 3.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 131,
+    "property_id": 22,
+    "name": "HFO",
+    "order": 4.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 132,
+    "property_id": 43,
+    "name": "Max. Reefer vessel carrying capacity (  Power Pack only - On deck)",
+    "order": 4.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 133,
+    "property_id": 22,
+    "name": "DO",
+    "order": 7.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 134,
+    "property_id": 43,
+    "name": "Max. Reefer vessel carrying capacity ( Power pack supply only - In cargo holds)",
+    "order": 5.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 135,
+    "property_id": 22,
+    "name": "Lub Oil",
+    "order": 10.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 136,
+    "property_id": 43,
+    "name": "Max. Reefer vessel carrying capacity (power pack and/or Auxiliary engine via C/O system  - On deck)",
+    "order": 6.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 137,
+    "property_id": 23,
+    "name": "Location of Bunkering Point",
+    "order": 14.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 138,
+    "property_id": 23,
+    "name": "No.Of Ballast Pumps & Capacity",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 139,
+    "property_id": 24,
+    "name": "No. 1 Cargo Hold",
+    "order": 2.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 140,
+    "property_id": 24,
+    "name": "No. 2 Cargo Hold",
+    "order": 5.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 141,
+    "property_id": 24,
+    "name": "No. 3 Cargo Hold",
+    "order": 8.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 142,
+    "property_id": 24,
+    "name": "No.4 Cargo Hold",
+    "order": 11.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 143,
+    "property_id": 24,
+    "name": "No.5 Cargo Hold",
+    "order": 14.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 144,
+    "property_id": 24,
+    "name": "No.6 Cargo Hold",
+    "order": 17.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 145,
+    "property_id": 25,
+    "name": "No. Of Hatches",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 146,
+    "property_id": 25,
+    "name": "Type Of Hatches",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 147,
+    "property_id": 26,
+    "name": "Main Engine Make",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 148,
+    "property_id": 26,
+    "name": "MCR Power",
+    "uid":"mcrpower",
+    "order": 6.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$",
+    "eexi_property_id": 3,
+    "eexi_order": 3.000
+  },
+  {
+    "id": 149,
+    "property_id": 26,
+    "name": "MCR RPM",
+    "uid":"mcrrpm",
+    "order": 7.000,
+    "unit": "RPM",
+    "place_value": 0,
+    "validation_expression": "^[0-9\\.,]+$",
+    "eexi_property_id": 3,
+    "eexi_order": 5.000
+  },
+  {
+    "id": 150,
+    "property_id": 26,
+    "name": "NCR Power",
+    "order": 8.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 151,
+    "property_id": 26,
+    "name": "NCR RPM",
+    "order": 9.000,
+    "unit": "RPM",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 152,
+    "property_id": 43,
+    "name": "Max. Reefer vessel carrying capacity (power pack and/or Auxiliary engine via C/O system  - In Cargo Holds)",
+    "order": 7.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 153,
+    "property_id": 32,
+    "name": "AE1- Engine Maker",
+    "order": 1.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null,
+    "eexi_property_id": 4,
+    "eexi_order": 2.000
+  },
+  {
+    "id": 154,
+    "property_id": 32,
+    "name": "Is Auxiliary Engine-1 present?",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 155,
+    "property_id": 37,
+    "name": "Max. Electrical Load at Port or Anchorage without Reefers but with Bow / Stern Thrusters on",
+    "order": 4.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 156,
+    "property_id": 32,
+    "name": "AE1- Engine Rated Speed",
+    "order": 4.000,
+    "unit": "RPM",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 157,
+    "property_id": 27,
+    "name": "Propeller Diameter",
+    "order": 6.000,
+    "unit": "mm",
+    "place_value": 1,
+    "validation_expression": "^([3-9]\\d{3}(\\.\\d+)?|1[0-4][0-9][0-9][0-9](\\.\\d+)?|15000(\\.\\d+)?)$"
+  },
+  {
+    "id": 158,
+    "property_id": 27,
+    "name": "Propeller No. of blades",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": "^[0-9]+$"
+  },
+  {
+    "id": 159,
+    "property_id": 27,
+    "name": "Propeller Hydrodynamic Pitch (For slip Calculation)",
+    "order": 7.000,
+    "unit": "mm",
+    "place_value": 1,
+    "validation_expression": "^([3-9]\\d{3}(\\.\\d+)?|1[0-4][0-9][0-9][0-9](\\.\\d+)?|15000(\\.\\d+)?)$"
+  },
+  {
+    "id": 160,
+    "property_id": 27,
+    "name": "Propeller Weight",
+    "order": 5.000,
+    "unit": "kg",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 161,
+    "property_id": 27,
+    "name": "Propeller Material",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 162,
+    "property_id": 27,
+    "name": "Spare Propeller",
+    "order": 12.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 163,
+    "property_id": 35,
+    "name": "Bow Thruster 1 Power",
+    "order": 3.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 164,
+    "property_id": 49,
+    "name": "No 1 Shaft Generator Present?",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 166,
+    "property_id": 26,
+    "name": "FO Consumption",
+    "order": 16.000,
+    "unit": "T/day",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 167,
+    "property_id": 33,
+    "name": "AE2- Max. Electrical Output power (kVa)",
+    "order": 6.000,
+    "unit": "kVa",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 168,
+    "property_id": 5,
+    "name": "Hull No.",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null,
+    "eexi_property_id": 1,
+    "eexi_order": 2.000
+  },
+  {
+    "id": 169,
+    "property_id": 4,
+    "name": "Build Class",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 170,
+    "property_id": 4,
+    "name": "Class Notation",
+    "order": 6.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 171,
+    "property_id": 16,
+    "name": "Previous Flag",
+    "order": 21.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 172,
+    "property_id": 1,
+    "name": "TEU 14T",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 173,
+    "property_id": 5,
+    "name": "Built Name",
+    "order": 5.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 174,
+    "property_id": 24,
+    "name": "No. Of Holds",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 175,
+    "property_id": 1,
+    "name": "Bridge to Stern",
+    "order": 24.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 176,
+    "property_id": 1,
+    "name": "Bridge to Bow",
+    "order": 22.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 177,
+    "property_id": 9,
+    "name": "Gear Outreach Max. ",
+    "order": 9.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 178,
+    "property_id": 9,
+    "name": "Gear Outreach Min.",
+    "order": 7.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 179,
+    "property_id": 9,
+    "name": "Gear Maximum Load",
+    "order": 5.000,
+    "unit": "T",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 180,
+    "property_id": 9,
+    "name": "No of Gears",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 181,
+    "property_id": 9,
+    "name": "Provision Crane Capacity ",
+    "order": 15.000,
+    "unit": "T",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 182,
+    "property_id": 9,
+    "name": "Spreader Fitted Onboard?",
+    "order": 27.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 183,
+    "property_id": 9,
+    "name": "Quantity of 40 feet Spreader Onboard",
+    "order": 31.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 184,
+    "property_id": 9,
+    "name": "Quantity of 20 feet Spreader Onboard",
+    "order": 29.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 185,
+    "property_id": 32,
+    "name": "AE1- Engine Type",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null,
+    "eexi_property_id": 4,
+    "eexi_order": 3.000
+  },
+  {
+    "id": 186,
+    "property_id": 32,
+    "name": "AE1- Engine Fuel Spec",
+    "order": 3.000,
+    "unit": "cSt",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 187,
+    "property_id": 19,
+    "name": "Winter Freeboard",
+    "order": 7.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 188,
+    "property_id": 32,
+    "name": "AE1- Maximum Continuous Rate- Mechanical",
+    "order": 5.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 189,
+    "property_id": 32,
+    "name": "AE1- SFOC at NCR(ISO Corrected)",
+    "order": 8.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 190,
+    "property_id": 27,
+    "name": "Manufacturer Of Propeller",
+    "order": 1.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 191,
+    "property_id": 9,
+    "name": "Hatch cover type ",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 192,
+    "property_id": 9,
+    "name": "Hatch Cover / Pontoon No's",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 193,
+    "property_id": 27,
+    "name": "Location of Spare Propeller",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 194,
+    "property_id": 27,
+    "name": "Propeller Boss Cap Fin Fitted",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 195,
+    "property_id": 33,
+    "name": "AE2- Engine Rated Speed",
+    "order": 4.000,
+    "unit": "RPM",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 196,
+    "property_id": 27,
+    "name": "Type Of Propeller (FPP/CPP)",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 197,
+    "property_id": 19,
+    "name": "Summer Freeboard",
+    "order": 3.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 198,
+    "property_id": 27,
+    "name": "If CPP then the pitch at 100% setting ",
+    "order": 8.000,
+    "unit": "mm",
+    "place_value": 0,
+    "validation_expression": "^([3-9]\\d{3}(\\.\\d+)?|1[0-4][0-9][0-9][0-9](\\.\\d+)?|15000(\\.\\d+)|(^$)?)$"
+  },
+  {
+    "id": 199,
+    "property_id": 27,
+    "name": "CPP maximum setting with two MEs clutch-in  ",
+    "order": 10.000,
+    "unit": "%",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 200,
+    "property_id": 27,
+    "name": "CPP maximum setting with One ME clutch-in ( eco speed)   ",
+    "order": 9.000,
+    "unit": "%",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 201,
+    "property_id": 33,
+    "name": "AE2- Engine Maker",
+    "order": 1.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 202,
+    "property_id": 23,
+    "name": "Bunkering Point ( Distance From Midship In Mtr)",
+    "order": 7.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 203,
+    "property_id": 33,
+    "name": "AE2- Engine Type",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 204,
+    "property_id": 33,
+    "name": "AE2- Engine Fuel Spec",
+    "order": 3.000,
+    "unit": "cSt",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 205,
+    "property_id": 19,
+    "name": "Type of Vessel for Freeboard Calculation",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 206,
+    "property_id": 33,
+    "name": "AE2- Maximum Continuous Rate- Mechanical",
+    "order": 5.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 207,
+    "property_id": 33,
+    "name": "AE2- SFOC at NCR(ISO Corrected) ",
+    "order": 8.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 208,
+    "property_id": 16,
+    "name": "Registration Date",
+    "order": 6.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 209,
+    "property_id": 1,
+    "name": "Air Draft (Summer)",
+    "order": 14.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 210,
+    "property_id": 17,
+    "name": "International Radio License Date of Expiry",
+    "order": 18.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 211,
+    "property_id": 17,
+    "name": "MMSI",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 212,
+    "property_id": 17,
+    "name": "GVA TEL:",
+    "order": 10.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 213,
+    "property_id": 17,
+    "name": "Brand & Type SATCOM C1",
+    "order": 17.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 214,
+    "property_id": 17,
+    "name": "INMARSAT Mobile No. (IMN) SATCOM C1",
+    "order": 14.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 215,
+    "property_id": 17,
+    "name": "INMARSAT Mobile No. (IMN) SATCOM C2",
+    "order": 15.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 216,
+    "property_id": 17,
+    "name": "Phone No. on Bridge",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 217,
+    "property_id": 17,
+    "name": "Vessel FBB / Communication No.",
+    "order": 9.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 218,
+    "property_id": 22,
+    "name": " HSFO",
+    "order": 5.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 219,
+    "property_id": 22,
+    "name": "LSFO",
+    "order": 6.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 220,
+    "property_id": 22,
+    "name": "Gas Oil",
+    "order": 8.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 221,
+    "property_id": 22,
+    "name": "LSMGO",
+    "order": 9.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 222,
+    "property_id": 23,
+    "name": "Seperate LSFO Feed System",
+    "order": 16.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 223,
+    "property_id": 22,
+    "name": "IOPP Sludge Tank",
+    "order": 15.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 224,
+    "property_id": 22,
+    "name": "IOPP Bilge Tank",
+    "order": 16.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 225,
+    "property_id": 9,
+    "name": "Hatch Cover Weight",
+    "order": 6.000,
+    "unit": "T",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 226,
+    "property_id": 9,
+    "name": "Lashing Equipment Provided",
+    "order": 10.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 227,
+    "property_id": 9,
+    "name": "Type Of Twistlocks Used (Auto/Semi-Auto/Manual)",
+    "order": 12.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 228,
+    "property_id": 46,
+    "name": "AE4- Power Factor ",
+    "order": 7.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 229,
+    "property_id": 37,
+    "name": "Ships Voltage and Frequency ",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 230,
+    "property_id": 37,
+    "name": "Max. Sea Load at Service Speed Without Reefers (kW)",
+    "order": 2.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 231,
+    "property_id": 37,
+    "name": "Max. Sea Load at ECO SPEED without Reefers with Main Engine Aux. Blowers on",
+    "order": 3.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 232,
+    "property_id": 37,
+    "name": "Max. Sea Load with Max. Reefers",
+    "order": 5.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 234,
+    "property_id": 35,
+    "name": "Stern Thruster Power",
+    "order": 10.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 235,
+    "property_id": 36,
+    "name": "Weight Of Anchor",
+    "order": 1.000,
+    "unit": "kg",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 236,
+    "property_id": 36,
+    "name": "Diameter / Grade of Chain Cable",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 237,
+    "property_id": 36,
+    "name": "Diameter of Towing Wire",
+    "order": 3.000,
+    "unit": "mm",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 238,
+    "property_id": 38,
+    "name": "Capacity Lanemeters",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 239,
+    "property_id": 38,
+    "name": "Capacity Trailers",
+    "order": 9.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 240,
+    "property_id": 38,
+    "name": "Capacity Cars",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 241,
+    "property_id": 38,
+    "name": "Capacity Passengers",
+    "order": 5.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 242,
+    "property_id": 38,
+    "name": "Ramp Details",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 243,
+    "property_id": 38,
+    "name": "Max. Crew Capacity",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 244,
+    "property_id": 38,
+    "name": "Onboard Planning & Stability Software name",
+    "order": 18.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 245,
+    "property_id": 38,
+    "name": "Onboard Planning & Stability Software is Class Approved?",
+    "order": 20.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 246,
+    "property_id": 38,
+    "name": "Is Vessel is in MO 32 compliance?",
+    "order": 24.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 247,
+    "property_id": 39,
+    "name": "Container Capacity in Holds",
+    "order": 1.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 248,
+    "property_id": 39,
+    "name": "Container Capacity on Deck",
+    "order": 2.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 249,
+    "property_id": 39,
+    "name": "Max Stack Weight in Holds",
+    "order": 3.000,
+    "unit": "MT/Unit",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 250,
+    "property_id": 39,
+    "name": "Max Stack Weight on Deck",
+    "order": 4.000,
+    "unit": "T/stack",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 251,
+    "property_id": 40,
+    "name": "Container Capacity In Holds",
+    "order": 1.000,
+    "unit": "FEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 252,
+    "property_id": 40,
+    "name": "Container Capacity on Deck",
+    "order": 2.000,
+    "unit": "FEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 253,
+    "property_id": 40,
+    "name": "Max Stack Weight in Holds",
+    "order": 3.000,
+    "unit": "T/Unit",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 254,
+    "property_id": 40,
+    "name": "Max Stack Weight on Deck",
+    "order": 4.000,
+    "unit": "T/Stack",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 255,
+    "property_id": 41,
+    "name": "Container Capacity In Holds",
+    "order": 1.000,
+    "unit": "FEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 256,
+    "property_id": 41,
+    "name": "Container Capacity on Deck",
+    "order": 2.000,
+    "unit": "FEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 257,
+    "property_id": 41,
+    "name": "Max Stack Weight in Holds",
+    "order": 3.000,
+    "unit": "T/Unit",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 258,
+    "property_id": 42,
+    "name": "Container Capacity In Holds",
+    "order": 1.000,
+    "unit": "Units",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 259,
+    "property_id": 42,
+    "name": "Container Capacity on Deck",
+    "order": 2.000,
+    "unit": "Units",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 260,
+    "property_id": 42,
+    "name": "Max Stack Weight in Holds",
+    "order": 3.000,
+    "unit": "T/Unit",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 269,
+    "property_id": 43,
+    "name": "Max.Reefer vessel  carrying capacity (Auxiliary Engine only)",
+    "order": 1.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 270,
+    "property_id": 47,
+    "name": "AE5- Power Factor ",
+    "order": 7.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 271,
+    "property_id": 43,
+    "name": "Max. Reefer Vessel Carrying Capacity ( Auxiliary Engine only ) with Thrusters in Operation",
+    "order": 8.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 272,
+    "property_id": 43,
+    "name": "Max. Reefer Vessel Carrying Capacity ( Auxiliary Engine only) without Thrusters in Operation",
+    "order": 9.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 273,
+    "property_id": 43,
+    "name": "Reefer monitoring system type on board",
+    "order": 16.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 274,
+    "property_id": 43,
+    "name": "20' Reefer Capacity in Holds",
+    "order": 10.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 275,
+    "property_id": 43,
+    "name": "20' Reefer Capacity on Deck",
+    "order": 11.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 276,
+    "property_id": 43,
+    "name": "40' Reefer Capacity In Holds",
+    "order": 12.000,
+    "unit": "FEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 277,
+    "property_id": 43,
+    "name": "40' Reefer capacity On Deck",
+    "order": 13.000,
+    "unit": "FEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 278,
+    "property_id": 43,
+    "name": "45' Reefer Capacity in Holds",
+    "order": 14.000,
+    "unit": "Units",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 279,
+    "property_id": 44,
+    "name": "AE3- Engine Maker",
+    "order": 1.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 280,
+    "property_id": 5,
+    "name": "Date of Launching",
+    "order": 10.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 281,
+    "property_id": 44,
+    "name": "AE3- Engine Rated Speed",
+    "order": 4.000,
+    "unit": "RPM",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 282,
+    "property_id": 44,
+    "name": "AE3- Engine Type",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 283,
+    "property_id": 44,
+    "name": "AE3- Engine Fuel Spec.",
+    "order": 3.000,
+    "unit": "cSt",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 284,
+    "property_id": 18,
+    "name": "Panama UMS Tonnage",
+    "order": 7.000,
+    "unit": "T",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 285,
+    "property_id": 44,
+    "name": "AE3- Maximum Continuous Rate- Mechanical",
+    "order": 5.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 286,
+    "property_id": 44,
+    "name": "AE3- SFOC at NCR(ISO Corrected)",
+    "order": 8.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 287,
+    "property_id": 26,
+    "name": "Min. MCR Load (%)",
+    "order": 11.000,
+    "unit": "%",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 288,
+    "property_id": 26,
+    "name": "Excluded MCR Range (%)",
+    "order": 10.000,
+    "unit": "%",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 289,
+    "property_id": 26,
+    "name": "Is T/C cut-out system installed?",
+    "order": 21.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 290,
+    "property_id": 26,
+    "name": "Spare Aux. Blowers Onboard",
+    "order": 22.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 291,
+    "property_id": 26,
+    "name": "For MAN Engine, Sliding Valves Fitted?",
+    "order": 19.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 292,
+    "property_id": 26,
+    "name": "Clutch/Reduction Gear Installed?",
+    "order": 17.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 293,
+    "property_id": 26,
+    "name": "ME Max RPM/Main Propeller shaft RPM (When reduction gear is installed between ME & Shaft)",
+    "order": 18.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 294,
+    "property_id": 26,
+    "name": "Electronically Controlled Cylinder Lub.",
+    "order": 20.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 295,
+    "property_id": 16,
+    "name": "Active",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 296,
+    "property_id": 4,
+    "name": "Ice Class Category (Y/N)",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 297,
+    "property_id": 1,
+    "name": "Collapsible Mast?",
+    "order": 18.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 298,
+    "property_id": 49,
+    "name": "No 1 Shaft Generator Capacity",
+    "order": 3.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 299,
+    "property_id": 50,
+    "name": "Turbo Generator Capacity",
+    "order": 4.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 300,
+    "property_id": 58,
+    "name": "Emergency Generator Capacity",
+    "order": 12.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 301,
+    "property_id": 45,
+    "name": "Draft for Attaining the below Figures",
+    "order": 2.100,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 302,
+    "property_id": 45,
+    "name": "90% Of Design MCR - Power",
+    "order": 2.110,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 303,
+    "property_id": 45,
+    "name": "90% Of Design MCR - Speed",
+    "order": 2.120,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 304,
+    "property_id": 45,
+    "name": "90% Of Design MCR - Consumption",
+    "order": 2.130,
+    "unit": "T/day",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 305,
+    "property_id": 45,
+    "name": "70% Of Design MCR - Power",
+    "order": 2.140,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 306,
+    "property_id": 45,
+    "name": "70% Of Design MCR - Speed",
+    "order": 2.150,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 307,
+    "property_id": 45,
+    "name": "70% Of DESIGN MCR - CONSUMPTION",
+    "order": 2.160,
+    "unit": "T/day",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 308,
+    "property_id": 45,
+    "name": "60% Of Design MCR - Power",
+    "order": 2.170,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 309,
+    "property_id": 45,
+    "name": "60% Of DESIGN MCR - SPEED",
+    "order": 2.180,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 310,
+    "property_id": 45,
+    "name": "60% Of Design MCR - Consumption",
+    "order": 2.190,
+    "unit": "T/day",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 311,
+    "property_id": 45,
+    "name": "50% Of Design MCR - Power",
+    "order": 2.200,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 312,
+    "property_id": 45,
+    "name": "50% Of Design MCR - Speed",
+    "order": 2.210,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 313,
+    "property_id": 45,
+    "name": "50% Of Design MCR - Consumption",
+    "order": 2.220,
+    "unit": "T/day",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 314,
+    "property_id": 45,
+    "name": "40% Of Design MCR - Power",
+    "order": 2.230,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 315,
+    "property_id": 45,
+    "name": "40% Of Design MCR - Speed",
+    "order": 2.240,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 316,
+    "property_id": 45,
+    "name": "40% Of Design MCR - Consumption",
+    "order": 2.250,
+    "unit": "T/day",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 317,
+    "property_id": 45,
+    "name": "30% Of Design MCR - Power",
+    "order": 2.260,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 318,
+    "property_id": 45,
+    "name": "30% Of Design MCR - Speed",
+    "order": 2.270,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 319,
+    "property_id": 45,
+    "name": "30% Of Design MCR - Consumption",
+    "order": 2.280,
+    "unit": "T/day",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 320,
+    "property_id": 45,
+    "name": "20% Of Design MCR - Power",
+    "order": 2.290,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 321,
+    "property_id": 45,
+    "name": "20% Of Design MCR - Speed",
+    "order": 2.300,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 322,
+    "property_id": 45,
+    "name": "20% Of Design MCR - Consumption",
+    "order": 2.310,
+    "unit": "T/day",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 323,
+    "property_id": 45,
+    "name": "10% Of Design MCR - Power",
+    "order": 2.320,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 324,
+    "property_id": 45,
+    "name": "10% Of Design MCR - Speed",
+    "order": 2.330,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 325,
+    "property_id": 45,
+    "name": "10% Of Design MCR - Consumption",
+    "order": 2.340,
+    "unit": "T/day",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 326,
+    "property_id": 16,
+    "name": "Vessel Lane Operator",
+    "order": 9.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 327,
+    "property_id": 16,
+    "name": "P&I Club Details",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 328,
+    "property_id": 4,
+    "name": "Ice Class Category",
+    "order": 14.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 329,
+    "property_id": 1,
+    "name": "Keel To Mast Height After Tilting",
+    "order": 20.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 330,
+    "property_id": 27,
+    "name": "Charter Party Consumption at Stated Speed ( T/day ) and Draft",
+    "order": 17.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 331,
+    "property_id": 27,
+    "name": "Charter Party Weather at above Consumption (Beaufort Scale)",
+    "order": 18.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 332,
+    "property_id": 14,
+    "name": "Next Drydock Date",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 333,
+    "property_id": 26,
+    "name": "Main Engine Type",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null,
+    "eexi_property_id": 3,
+    "eexi_order": 3.000
+  },
+  {
+    "id": 334,
+    "property_id": 26,
+    "name": "Number of Main Engines",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 335,
+    "property_id": 26,
+    "name": "No of Spare Aux. Blowers Onboard",
+    "order": 23.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 336,
+    "property_id": 38,
+    "name": "Boiler FO Consumption per hour at Max. Rated Operations",
+    "order": 21.000,
+    "unit": "T/hr",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 337,
+    "property_id": 23,
+    "name": "Anti-Heeling System",
+    "order": 18.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 338,
+    "property_id": 22,
+    "name": "Heeling Tank",
+    "order": 2.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 339,
+    "property_id": 23,
+    "name": "Anti-rolling System",
+    "order": 20.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 340,
+    "property_id": 23,
+    "name": "Stabilizer System",
+    "order": 21.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 341,
+    "property_id": 22,
+    "name": "Lub Oil Cylinder",
+    "order": 14.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 342,
+    "property_id": 22,
+    "name": "Lub Oil Main Engine Crank Case",
+    "order": 11.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 343,
+    "property_id": 22,
+    "name": "Lub Oil Aux Engine",
+    "order": 13.000,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 344,
+    "property_id": 9,
+    "name": "Cargo Gear Certificate (5 Yearly Load Test) Expiry Date",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 345,
+    "property_id": 38,
+    "name": "VSL Intakes & General Distribution",
+    "order": 1.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 346,
+    "property_id": 38,
+    "name": "Is vessel Russian Stowage capable?",
+    "order": 23.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 347,
+    "property_id": 42,
+    "name": "Max Stack Weight on Deck",
+    "order": 4.000,
+    "unit": "T/Stack",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 348,
+    "property_id": 17,
+    "name": "Ship's Email ID 2",
+    "order": 5.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 349,
+    "property_id": 17,
+    "name": "Attachment Possible 1",
+    "order": 4.000,
+    "unit": "kB",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 350,
+    "property_id": 17,
+    "name": "Attachment Possible 2",
+    "order": 6.000,
+    "unit": "kB",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 351,
+    "property_id": 17,
+    "name": "INMARSAT MOBILE NUMBER (IMN) SATCOM SSAS",
+    "order": 16.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 352,
+    "property_id": 38,
+    "name": "Statutory & Classification Certificate (Hull & Machinery) 5 Yearly / Annual",
+    "order": 17.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 353,
+    "property_id": 38,
+    "name": "Registry Certificate Expiry Date",
+    "order": 15.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 354,
+    "property_id": 38,
+    "name": "Safety Management Certificate Expiry Date",
+    "order": 19.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 355,
+    "property_id": 38,
+    "name": "General Arrangement Plan",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 356,
+    "property_id": 38,
+    "name": "Capacity plan / bay plan",
+    "order": 8.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 357,
+    "property_id": 38,
+    "name": "Letter plan",
+    "order": 16.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 358,
+    "property_id": 38,
+    "name": "Cargo securing manual",
+    "order": 6.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 359,
+    "property_id": 38,
+    "name": "Trim & Stability booklet",
+    "order": 14.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 360,
+    "property_id": 38,
+    "name": "Loading Scale",
+    "order": 10.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 361,
+    "property_id": 38,
+    "name": "Deadweight Scale",
+    "order": 12.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 362,
+    "property_id": 38,
+    "name": "Fire and Safety Plan",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 363,
+    "property_id": 59,
+    "name": "Consumption in Port with No Reefers",
+    "order": 3.000,
+    "unit": "T/day",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 364,
+    "property_id": 59,
+    "name": "Consumption in Port with Max. Reefers ",
+    "order": 4.000,
+    "unit": "T/day",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 365,
+    "property_id": 58,
+    "name": "Emergency Generator - Actual NOx emission value",
+    "order": 19.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 366,
+    "property_id": 32,
+    "name": "AE1- Calorific Value of Fuel Burnt to arrive at SFOC",
+    "order": 10.000,
+    "unit": "MJ/kg",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 367,
+    "property_id": 33,
+    "name": "AE2- Calorific Value of Fuel Burnt to arrive at SFOC",
+    "order": 10.000,
+    "unit": "MJ/kg",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 368,
+    "property_id": 44,
+    "name": "AE3- Calorific Value of Fuel Burnt to arrive at SFOC",
+    "order": 10.000,
+    "unit": "MJ/kg",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 369,
+    "property_id": 46,
+    "name": "AE4- Engine Maker",
+    "order": 1.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 370,
+    "property_id": 46,
+    "name": "AE4- Engine Type",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 371,
+    "property_id": 46,
+    "name": "AE4- Engine Fuel Spec",
+    "order": 3.000,
+    "unit": "cSt",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 372,
+    "property_id": 46,
+    "name": "AE4- Engine Rated Speed",
+    "order": 4.000,
+    "unit": "RPM",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 373,
+    "property_id": 46,
+    "name": "AE4- Maximum Continuous Rate- Mechanical",
+    "order": 5.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 374,
+    "property_id": 46,
+    "name": "AE4- SFOC at NCR(ISO Corrected)",
+    "order": 8.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 375,
+    "property_id": 47,
+    "name": "AE5- Engine Maker",
+    "order": 1.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 376,
+    "property_id": 47,
+    "name": "AE5- Engine Type",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 377,
+    "property_id": 47,
+    "name": "AE5- Engine Fuel Spec",
+    "order": 3.000,
+    "unit": "cSt",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 378,
+    "property_id": 47,
+    "name": "AE5- Engine Rated Speed",
+    "order": 4.000,
+    "unit": "RPM",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 379,
+    "property_id": 47,
+    "name": "AE5- Maximum Continuous Rate- Mechanical",
+    "order": 5.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 380,
+    "property_id": 47,
+    "name": "AE5- SFOC at NCR(ISO Corrected)",
+    "order": 8.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 385,
+    "property_id": 46,
+    "name": "AE4- Calorific Value of Fuel Burnt to arrive at SFOC ",
+    "order": 10.000,
+    "unit": "MJ/kg",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 386,
+    "property_id": 47,
+    "name": "AE5- Calorific Value of Fuel Burnt to arrive at SFOC",
+    "order": 10.000,
+    "unit": "MJ/kg",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 387,
+    "property_id": 43,
+    "name": "45' Reefer Capacity on Deck",
+    "order": 15.000,
+    "unit": "Units",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 388,
+    "property_id": 43,
+    "name": "Sockets Type",
+    "order": 17.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 389,
+    "property_id": 22,
+    "name": "Anti-Heeling",
+    "order": 2.500,
+    "unit": "cu.m",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 390,
+    "property_id": 23,
+    "name": "Cold Ironing  fitted?",
+    "order": 22.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 391,
+    "property_id": 41,
+    "name": "Max Stack Weight on Deck",
+    "order": 4.000,
+    "unit": "T/Stack",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 392,
+    "property_id": 1,
+    "name": "Segment",
+    "order": 26.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 393,
+    "property_id": 1,
+    "name": "Trade",
+    "order": 28.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 394,
+    "property_id": 35,
+    "name": "Is Bow Thruster 1 Present?",
+    "order": 1.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 395,
+    "property_id": 35,
+    "name": "Is Bow Thruster 1 Operational?",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 396,
+    "property_id": 35,
+    "name": "Is Stern Thruster Present?",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 397,
+    "property_id": 35,
+    "name": "Is Stern Thruster Operational?",
+    "order": 9.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 398,
+    "property_id": 35,
+    "name": "Comments",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 399,
+    "property_id": 22,
+    "name": "Total No. Of LSFO Serv Tanks+ Sett Tank",
+    "order": 24.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 400,
+    "property_id": 22,
+    "name": "Total No. Of HSFO Serv Tanks+sett Tank",
+    "order": 25.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 401,
+    "property_id": 22,
+    "name": "Can bunker and burn ULSFO?",
+    "order": 26.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 402,
+    "property_id": 22,
+    "name": "Approx. Change over time from HSFO to ULSFO  and Comments",
+    "order": 28.000,
+    "unit": "hr",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 403,
+    "property_id": 22,
+    "name": "Remarks/ Modification possibility to burn ULSFO and reduce C/O time",
+    "order": 29.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 420,
+    "property_id": 58,
+    "name": "Emergency Generator - Serial No",
+    "order": 14.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 421,
+    "property_id": 58,
+    "name": "Emergency Generator - Maximum Continuous Rate",
+    "order": 17.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 422,
+    "property_id": 58,
+    "name": "Emergency Generator - Fuel Spec",
+    "order": 15.000,
+    "unit": "cSt",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 423,
+    "property_id": 58,
+    "name": "Emergency Generator - Rated Speed",
+    "order": 16.000,
+    "unit": "RPM",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 439,
+    "property_id": 54,
+    "name": "Deck",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 440,
+    "property_id": 54,
+    "name": "Cargo Holds",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 441,
+    "property_id": 55,
+    "name": "Reefer on Deck (powered by Ship's Power + C/O system)",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 442,
+    "property_id": 55,
+    "name": "Reefer on Deck (only powered by PPk)",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 443,
+    "property_id": 55,
+    "name": "Reefer in Cargo Holds (powered by Ship's Power  + C/O system)",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 444,
+    "property_id": 55,
+    "name": "Reefer in Cargo Holds (only powered by PPk )",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 445,
+    "property_id": 56,
+    "name": "Reefer Sockets  SPARE powered by Ship's Power",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 446,
+    "property_id": 56,
+    "name": "Planned for upgrade",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 447,
+    "property_id": 56,
+    "name": "Estimated readiness",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 455,
+    "property_id": 56,
+    "name": "Power Pack Nr. 1 Capacity ( 100% )",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 456,
+    "property_id": 56,
+    "name": "Power Pack Nr. 2 Capacity ( 100% )",
+    "order": 12.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 457,
+    "property_id": 56,
+    "name": "Power Pack Nr. 3 Capacity ( 100% )",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 458,
+    "property_id": 56,
+    "name": "Power Pack Nr. 4 Capacity ( 100% )",
+    "order": 14.000,
+    "unit": "",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 459,
+    "property_id": 56,
+    "name": "Max. Power consumption Normal Sea going (Actual)",
+    "order": 15.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 460,
+    "property_id": 56,
+    "name": "Max. Power consumption Normal Sea going (Theoretic Load Analysis)",
+    "order": 16.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 461,
+    "property_id": 56,
+    "name": "Max. Power cons.for C/H Fans ",
+    "order": 17.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 462,
+    "property_id": 56,
+    "name": "Max. Power cons.for CHIQUITA OZONE GENERATOR",
+    "order": 18.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 463,
+    "property_id": 56,
+    "name": "Max. Power cons.for Bow Thruster",
+    "order": 19.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 464,
+    "property_id": 56,
+    "name": "Max. Power cons.for M/E Blowers ",
+    "order": 20.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 465,
+    "property_id": 56,
+    "name": "Max. Power cons.for 2nd STEERING PUMP",
+    "order": 21.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 470,
+    "property_id": 49,
+    "name": "No 1 Shaft Engine Makers",
+    "order": 5.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 471,
+    "property_id": 49,
+    "name": "No 1 Shaft Engine Type",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 477,
+    "property_id": 50,
+    "name": "Turbo Engine Maker",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 478,
+    "property_id": 50,
+    "name": "Turbo Engine Type",
+    "order": 6.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 479,
+    "property_id": 32,
+    "name": "AE1- Power Factor ",
+    "order": 7.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 480,
+    "property_id": 50,
+    "name": "TG- Engine Rated Speed",
+    "order": 7.000,
+    "unit": "RPM",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 481,
+    "property_id": 50,
+    "name": "TG- Maximum Continuous Rate",
+    "order": 8.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 482,
+    "property_id": 26,
+    "name": "ME- SFOC at NCR",
+    "order": 14.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 483,
+    "property_id": 33,
+    "name": "AE2- Power Factor ",
+    "order": 7.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 487,
+    "property_id": 58,
+    "name": "Emergency Generator - Applicable NOx emission limit",
+    "order": 19.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 488,
+    "property_id": 26,
+    "name": "Main Engine Fuel Max Viscosity (500 cSt / 700 cSt)",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 489,
+    "property_id": 38,
+    "name": "US VGP Compliance",
+    "order": 22.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 490,
+    "property_id": 23,
+    "name": "Ballast Water Treatment Plant",
+    "order": 23.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 491,
+    "property_id": 1,
+    "name": "Alphaliner Class",
+    "order": 27.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 492,
+    "property_id": 26,
+    "name": "ME- Applicable NOx emission limit",
+    "order": 24.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 493,
+    "property_id": 26,
+    "name": "ME- Actual NOx emission value",
+    "order": 25.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 494,
+    "property_id": 32,
+    "name": "AE1- Serial No",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 495,
+    "property_id": 32,
+    "name": "AE1- Applicable NOx emission limit",
+    "order": 11.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 496,
+    "property_id": 32,
+    "name": "AE1- Actual NOx emission value",
+    "order": 12.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 497,
+    "property_id": 33,
+    "name": "AE2- Applicable NOx emission limit",
+    "order": 12.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 498,
+    "property_id": 33,
+    "name": "AE2- Actual NOx emission value",
+    "order": 13.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 499,
+    "property_id": 33,
+    "name": "AE2- Serial No",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 500,
+    "property_id": 44,
+    "name": "AE3- Serial No",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 502,
+    "property_id": 44,
+    "name": "AE3- Actual NOx emission value",
+    "order": 13.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 503,
+    "property_id": 44,
+    "name": "AE3- Applicable NOx emission limit",
+    "order": 12.000,
+    "unit": "g/kWh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 504,
+    "property_id": 46,
+    "name": "AE4- Serial No",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 505,
+    "property_id": 46,
+    "name": "AE4- Applicable NOx emission limit",
+    "order": 13.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 506,
+    "property_id": 46,
+    "name": "AE4-Actual NOx emission value",
+    "order": 14.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 507,
+    "property_id": 47,
+    "name": "AE5- Serial No",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 508,
+    "property_id": 47,
+    "name": "AE5- Applicable NOx emission limit",
+    "order": 12.000,
+    "unit": "g/kWh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 509,
+    "property_id": 47,
+    "name": "AE5- Actual NOx emission value",
+    "order": 14.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 510,
+    "property_id": 26,
+    "name": "ME-1, Serial No",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 511,
+    "property_id": 33,
+    "name": "Is Auxiliary Engine-2 present?",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 512,
+    "property_id": 44,
+    "name": "Is Auxiliary Engine-3 present?",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 513,
+    "property_id": 46,
+    "name": "Is Auxiliary Engine-4 present?",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 514,
+    "property_id": 47,
+    "name": "Is Auxiliary Engine-5 present?",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 515,
+    "property_id": 16,
+    "name": "Fleet",
+    "order": 10.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 516,
+    "property_id": 26,
+    "name": "ME-2, Serial No",
+    "order": 5.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 517,
+    "property_id": 58,
+    "name": "Emergency Generator Present?",
+    "order": 10.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 518,
+    "property_id": 58,
+    "name": "Emergency Engine Maker",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 519,
+    "property_id": 58,
+    "name": "Emergency Generator Type",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 520,
+    "property_id": 17,
+    "name": "Superintendent",
+    "order": 19.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 521,
+    "property_id": 17,
+    "name": "Technical Manager",
+    "order": 23.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 522,
+    "property_id": 9,
+    "name": ".",
+    "order": 14.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 526,
+    "property_id": 9,
+    "name": "Is the vessel fitted with side ramp",
+    "order": 17.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 527,
+    "property_id": 9,
+    "name": ".",
+    "order": 8.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 528,
+    "property_id": 9,
+    "name": ".",
+    "order": 20.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 529,
+    "property_id": 9,
+    "name": ".",
+    "order": 18.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 530,
+    "property_id": 9,
+    "name": ".",
+    "order": 24.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 531,
+    "property_id": 32,
+    "name": "AE1- Max. Electrical Output power (kVa)",
+    "order": 7.000,
+    "unit": "kVa",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 532,
+    "property_id": 17,
+    "name": "Tel/Extension",
+    "order": 20.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 533,
+    "property_id": 17,
+    "name": "Mobile No",
+    "order": 21.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 534,
+    "property_id": 17,
+    "name": "Email",
+    "order": 22.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 535,
+    "property_id": 17,
+    "name": "Tel/Extension",
+    "order": 24.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 536,
+    "property_id": 17,
+    "name": "Mobile No",
+    "order": 25.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 537,
+    "property_id": 17,
+    "name": "Email",
+    "order": 26.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 538,
+    "property_id": 35,
+    "name": "Is Bow Thruster 2 Present?",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 539,
+    "property_id": 35,
+    "name": "Is Bow Thruster 2 Operational?",
+    "order": 5.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 540,
+    "property_id": 35,
+    "name": "Bow Thruster 2 Power",
+    "order": 6.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 542,
+    "property_id": 59,
+    "name": "Total Number Of Auxiliary Engine ",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null,
+    "eexi_property_id": 4,
+    "eexi_order": 1.000
+  },
+  {
+    "id": 543,
+    "property_id": 59,
+    "name": "Total Auxiliary Engine Load",
+    "order": 2.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 544,
+    "property_id": 49,
+    "name": "Total Number of Shaft Generator",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 545,
+    "property_id": 27,
+    "name": "Number Of Blades On Spare Propeller",
+    "order": 14.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 546,
+    "property_id": 27,
+    "name": "Spare PBCF Available",
+    "order": 15.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 547,
+    "property_id": 27,
+    "name": "Spare PBCF Location",
+    "order": 16.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 549,
+    "property_id": 50,
+    "name": "T.G Powered By (Steam/Exhaust)",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 550,
+    "property_id": 1,
+    "name": "EEDI",
+    "order": 30.000,
+    "unit": "gm- Co2/ton-mile",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 551,
+    "property_id": 9,
+    "name": "Sludge Incinerator Installed?",
+    "order": 26.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 552,
+    "property_id": 9,
+    "name": "Sludge Incinerator Flow Rate",
+    "order": 28.000,
+    "unit": "cu.m/hr",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 553,
+    "property_id": 9,
+    "name": ".",
+    "order": 30.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 554,
+    "property_id": 44,
+    "name": "AE3- Power Factor ",
+    "order": 7.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 555,
+    "property_id": 26,
+    "name": "Waste Heat Recovery System - WHRS Max. Electrical Capacity",
+    "order": 26.000,
+    "unit": "Kg/Hr",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 556,
+    "property_id": 44,
+    "name": "AE3- Max. Electrical Output power (kVa)",
+    "order": 6.000,
+    "unit": "kVa",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 557,
+    "property_id": 46,
+    "name": "AE4- Max. Electrical Output power (kVa)",
+    "order": 6.000,
+    "unit": "kVa",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 558,
+    "property_id": 47,
+    "name": "AE5- Max. Electrical Output power (kVa)",
+    "order": 6.000,
+    "unit": "kVa",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 559,
+    "property_id": 32,
+    "name": "AE1- Max. Electrical Output power (kW)",
+    "order": 7.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 560,
+    "property_id": 33,
+    "name": "AE2- Max. Electrical Output power (kW)",
+    "order": 7.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 561,
+    "property_id": 44,
+    "name": "AE3- Max. Electrical Output power (kW)",
+    "order": 7.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 562,
+    "property_id": 46,
+    "name": "AE4- Max. Electrical Output power (kW)",
+    "order": 7.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 563,
+    "property_id": 47,
+    "name": "AE5- Max. Electrical Output power (kW)",
+    "order": 7.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 566,
+    "property_id": 38,
+    "name": "Ballast Water Management System fitted (BWMS) Type",
+    "order": 28.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 567,
+    "property_id": 16,
+    "name": "Registered Owner Identification Number",
+    "order": 7.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 568,
+    "property_id": 1,
+    "name": "EIV",
+    "order": 32.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 569,
+    "property_id": 1,
+    "name": ".",
+    "order": 34.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 570,
+    "property_id": 43,
+    "name": "Max. Reefer Vessel Carrying Capacity (including Shaft/Turbo Generator/WHRS) TOTAL",
+    "order": 3.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 571,
+    "property_id": 1,
+    "name": "OHSAS Compliance ?",
+    "order": 29.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 572,
+    "property_id": 45,
+    "name": "Calorific Value Of Fuel Burnt To Arrive At The Below Consumption (Mj/Kg)",
+    "order": 3.000,
+    "unit": "Mj/Kg",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 573,
+    "property_id": 35,
+    "name": "Number of Bow Thruster",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 574,
+    "property_id": 35,
+    "name": "Number of Stern Thruster",
+    "order": 7.200,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 575,
+    "property_id": 1,
+    "name": "New Max Speed",
+    "order": 10.000,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 576,
+    "property_id": 26,
+    "name": "New MCR RPM",
+    "uid":"newmcrrpm",
+    "order": 7.500,
+    "unit": "RPM",
+    "place_value": 0,
+    "validation_expression": null,
+    "eexi_property_id": 3,
+    "eexi_order": 6.000
+  },
+  {
+    "id": 577,
+    "property_id": 26,
+    "name": "New MCR Power",
+    "uid":"newmcrpower",
+    "order": 6.500,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$",
+    "eexi_property_id": 3,
+    "eexi_order": 4.000
+  },
+  {
+    "id": 578,
+    "property_id": 26,
+    "name": "FO Consumption at New MCR",
+    "order": 16.500,
+    "unit": "T/day",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 579,
+    "property_id": 26,
+    "name": " ME- SFOC at New NCR",
+    "order": 14.500,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 580,
+    "property_id": 16,
+    "name": "Class/Group",
+    "order": 10.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 581,
+    "property_id": 19,
+    "name": " Minimum Emerging Propeller Aft Draft",
+    "order": 18.000,
+    "unit": "m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 582,
+    "property_id": 26,
+    "name": "New NCR Power",
+    "order": 8.500,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 583,
+    "property_id": 26,
+    "name": " New NCR RPM",
+    "order": 9.500,
+    "unit": "RPM",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 585,
+    "property_id": 24,
+    "name": "No.7 Cargo Hold",
+    "order": 20.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 586,
+    "property_id": 24,
+    "name": "No.8 Cargo Hold",
+    "order": 23.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 587,
+    "property_id": 24,
+    "name": "No.9 Cargo Hold",
+    "order": 26.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 588,
+    "property_id": 24,
+    "name": "No.10 Cargo Hold",
+    "order": 29.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 589,
+    "property_id": 24,
+    "name": "No.11 Cargo Hold",
+    "order": 32.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 590,
+    "property_id": 24,
+    "name": "No.12 Cargo Hold",
+    "order": 35.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 591,
+    "property_id": 24,
+    "name": "No.13 Cargo Hold",
+    "order": 38.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 592,
+    "property_id": 24,
+    "name": "No.14 Cargo Hold",
+    "order": 41.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 593,
+    "property_id": 24,
+    "name": "No.15 Cargo Hold",
+    "order": 44.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 594,
+    "property_id": 24,
+    "name": "No.16 Cargo Hold",
+    "order": 47.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 595,
+    "property_id": 24,
+    "name": "No.17 Cargo Hold",
+    "order": 50.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 596,
+    "property_id": 24,
+    "name": "No.18 Cargo Hold",
+    "order": 53.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 597,
+    "property_id": 24,
+    "name": "No.19 Cargo Hold",
+    "order": 56.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 598,
+    "property_id": 24,
+    "name": "No.20 Cargo Hold",
+    "order": 59.000,
+    "unit": "cu.m",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 599,
+    "property_id": 38,
+    "name": ".",
+    "order": 27.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 601,
+    "property_id": 24,
+    "name": "Container Capacity1",
+    "order": 3.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 602,
+    "property_id": 24,
+    "name": "Container Capacity2",
+    "order": 6.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 603,
+    "property_id": 24,
+    "name": "Container Capacity3",
+    "order": 9.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 604,
+    "property_id": 24,
+    "name": "Container Capacity4",
+    "order": 12.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 605,
+    "property_id": 24,
+    "name": "Container Capacity5",
+    "order": 15.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 606,
+    "property_id": 24,
+    "name": "Container Capacity6",
+    "order": 18.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 607,
+    "property_id": 24,
+    "name": "Container Capacity7",
+    "order": 21.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 608,
+    "property_id": 24,
+    "name": "Container Capacity8",
+    "order": 23.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 609,
+    "property_id": 24,
+    "name": "Container Capacity9",
+    "order": 26.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 610,
+    "property_id": 24,
+    "name": "Container Capacity10",
+    "order": 29.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 611,
+    "property_id": 24,
+    "name": "Container Capacity11",
+    "order": 33.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 612,
+    "property_id": 24,
+    "name": "Container Capacity12",
+    "order": 36.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 613,
+    "property_id": 24,
+    "name": "Container Capacity13",
+    "order": 39.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 614,
+    "property_id": 24,
+    "name": "Container Capacity14",
+    "order": 42.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 615,
+    "property_id": 24,
+    "name": "Container Capacity15",
+    "order": 45.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 616,
+    "property_id": 24,
+    "name": "Container Capacity16",
+    "order": 48.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 617,
+    "property_id": 24,
+    "name": "Container Capacity17",
+    "order": 51.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 618,
+    "property_id": 24,
+    "name": "Container Capacity18",
+    "order": 54.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 619,
+    "property_id": 24,
+    "name": "Container Capacity19",
+    "order": 57.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 620,
+    "property_id": 24,
+    "name": "Container Capacity20",
+    "order": 60.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 621,
+    "property_id": 24,
+    "name": "Reefer Capacity1",
+    "order": 4.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 622,
+    "property_id": 24,
+    "name": "Reefer Capacity2",
+    "order": 7.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 623,
+    "property_id": 24,
+    "name": "Reefer Capacity3",
+    "order": 10.000,
+    "unit": "TEU",
+    "place_value": 1,
+    "validation_expression": null
+  },
+  {
+    "id": 624,
+    "property_id": 24,
+    "name": "Reefer Capacity4",
+    "order": 13.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 625,
+    "property_id": 24,
+    "name": "Reefer Capacity5",
+    "order": 16.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 626,
+    "property_id": 24,
+    "name": "Reefer Capacity6",
+    "order": 19.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 627,
+    "property_id": 24,
+    "name": "Reefer Capacity7",
+    "order": 22.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 628,
+    "property_id": 24,
+    "name": "Reefer Capacity8",
+    "order": 25.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 629,
+    "property_id": 24,
+    "name": "Reefer Capacity9",
+    "order": 28.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 630,
+    "property_id": 24,
+    "name": "Reefer Capacity10",
+    "order": 31.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 631,
+    "property_id": 24,
+    "name": "Reefer Capacity11",
+    "order": 34.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 632,
+    "property_id": 24,
+    "name": "Reefer Capacity12",
+    "order": 37.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 633,
+    "property_id": 24,
+    "name": "Reefer Capacity13",
+    "order": 40.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 634,
+    "property_id": 24,
+    "name": "Reefer Capacity14",
+    "order": 43.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 635,
+    "property_id": 24,
+    "name": "Reefer Capacity15",
+    "order": 46.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 636,
+    "property_id": 24,
+    "name": "Reefer Capacity16",
+    "order": 49.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 637,
+    "property_id": 24,
+    "name": "Reefer Capacity17",
+    "order": 52.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 638,
+    "property_id": 24,
+    "name": "Reefer Capacity18",
+    "order": 55.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 639,
+    "property_id": 24,
+    "name": "Reefer Capacity19",
+    "order": 58.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 640,
+    "property_id": 24,
+    "name": "Reefer Capacity20",
+    "order": 61.000,
+    "unit": "TEU",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 644,
+    "property_id": 16,
+    "name": "Vessel MSC Code",
+    "order": 9.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 647,
+    "property_id": 60,
+    "name": "Scrubber installed?",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 648,
+    "property_id": 60,
+    "name": "Installed Scrubber Maker",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 649,
+    "property_id": 60,
+    "name": "Installed Scrubber Serial Number",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 650,
+    "property_id": 60,
+    "name": "U-type Installed ?",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 651,
+    "property_id": 60,
+    "name": "Horizontal Type  Installed ?",
+    "order": 5.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 652,
+    "property_id": 60,
+    "name": "Number of In line Towers?",
+    "order": 6.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 653,
+    "property_id": 60,
+    "name": "Tower nr1 Linked with",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 654,
+    "property_id": 60,
+    "name": "Tower nr2 Linked with",
+    "order": 8.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 655,
+    "property_id": 60,
+    "name": "Tower nr3 Linked with",
+    "order": 9.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 656,
+    "property_id": 60,
+    "name": "Tower nr4 Linked with",
+    "order": 10.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 657,
+    "property_id": 60,
+    "name": "Number of scrubber units",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 658,
+    "property_id": 60,
+    "name": "Type",
+    "order": 12.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 659,
+    "property_id": 60,
+    "name": "Auxiliary Engines Coverage",
+    "order": 13.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 660,
+    "property_id": 61,
+    "name": "Number of boilers on Board",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 661,
+    "property_id": 61,
+    "name": "Manufacturer",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null,
+    "eexi_property_id": 3,
+    "eexi_order": 1.000
+  },
+  {
+    "id": 662,
+    "property_id": 61,
+    "name": "Type / Model",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null,
+    "eexi_property_id": 3,
+    "eexi_order": 2.000
+  },
+  {
+    "id": 663,
+    "property_id": 61,
+    "name": "Capacity / Steam Production",
+    "order": 4.000,
+    "unit": "Kg/ Hr",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 664,
+    "property_id": 61,
+    "name": "Normal Working Pressure",
+    "order": 5.000,
+    "unit": "Bar",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 665,
+    "property_id": 61,
+    "name": "Design Pressure",
+    "order": 6.000,
+    "unit": "Bar",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 666,
+    "property_id": 61,
+    "name": "Fuel",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 667,
+    "property_id": 61,
+    "name": "Fuel consumption (HFO)",
+    "order": 8.000,
+    "unit": "Kg/Hr",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 668,
+    "property_id": 61,
+    "name": "Burner Type / Model",
+    "order": 9.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 670,
+    "property_id": 61,
+    "name": "Heating Surface(Oil fired)",
+    "order": 11.000,
+    "unit": "m2",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 671,
+    "property_id": 61,
+    "name": "Flue Gas flow rate",
+    "order": 12.000,
+    "unit": "Kg/Hr",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 672,
+    "property_id": 61,
+    "name": "Flue gas temp (outlet)",
+    "order": 13.000,
+    "unit": "Deg C",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 673,
+    "property_id": 62,
+    "name": "Number of EGE on Board : (For ME )",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 674,
+    "property_id": 62,
+    "name": "M/E Manufacturer",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 675,
+    "property_id": 62,
+    "name": "M/E Type / Model",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 676,
+    "property_id": 62,
+    "name": "M/E Heating Surface",
+    "order": 4.000,
+    "unit": "m2",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 677,
+    "property_id": 62,
+    "name": "M/E Normal working pressure",
+    "order": 5.000,
+    "unit": "Bar",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 678,
+    "property_id": 62,
+    "name": "M/E Design Pressure",
+    "order": 6.000,
+    "unit": "Bar",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 679,
+    "property_id": 62,
+    "name": "M/E Steam production",
+    "order": 7.000,
+    "unit": "Kg/Hr",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 680,
+    "property_id": 62,
+    "name": "M/E Exhaust Gas flow rate",
+    "order": 8.000,
+    "unit": "Kg/Hr",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 681,
+    "property_id": 62,
+    "name": "M/E Exhaust gas temp (inlet)",
+    "order": 9.000,
+    "unit": "Deg C",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 682,
+    "property_id": 62,
+    "name": "A/E Manufacturer",
+    "order": 11.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 683,
+    "property_id": 62,
+    "name": "A/E Type / Model",
+    "order": 12.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 684,
+    "property_id": 62,
+    "name": "A/E Heating Surface",
+    "order": 13.000,
+    "unit": "m2",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 685,
+    "property_id": 62,
+    "name": "A/E Normal working pressure",
+    "order": 14.000,
+    "unit": "Bar",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 686,
+    "property_id": 62,
+    "name": "A/E Design Pressure",
+    "order": 15.000,
+    "unit": "Bar",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 687,
+    "property_id": 62,
+    "name": "A/E Steam production",
+    "order": 16.000,
+    "unit": "Kg/Hr",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 688,
+    "property_id": 62,
+    "name": "A/E Exhaust Gas flow rate",
+    "order": 17.000,
+    "unit": "Kg/Hr",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 689,
+    "property_id": 62,
+    "name": "A/E Exhaust gas temp (inlet)",
+    "order": 18.000,
+    "unit": "Deg C",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 690,
+    "property_id": 62,
+    "name": "Number of EGE on Board : (For AE)",
+    "order": 1.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 691,
+    "property_id": 62,
+    "name": "M/E Exhaust gas temp (outlet) ",
+    "order": 10.000,
+    "unit": "Deg C",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 692,
+    "property_id": 62,
+    "name": "A/E Exhaust gas temp (outlet)",
+    "order": 19.000,
+    "unit": "Deg C",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 693,
+    "property_id": 60,
+    "name": "Boiler Coverage",
+    "order": 14.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 694,
+    "property_id": 60,
+    "name": "Type of residual waste",
+    "order": 15.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 695,
+    "property_id": 60,
+    "name": "Type of chemical used ",
+    "order": 16.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 696,
+    "property_id": 60,
+    "name": "Alkali Tank Capacity",
+    "order": 17.000,
+    "unit": "m3",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 697,
+    "property_id": 60,
+    "name": "Sludge Tank Capacity",
+    "order": 18.000,
+    "unit": "m3",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 698,
+    "property_id": 60,
+    "name": "Holding Tank Capacity",
+    "order": 19.000,
+    "unit": "m3",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 699,
+    "property_id": 60,
+    "name": "Actual power Consumption (Open Loop)",
+    "order": 20.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 700,
+    "property_id": 60,
+    "name": "Actual power Consumption (Closed Loop)",
+    "order": 21.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 701,
+    "property_id": 60,
+    "name": "Estimated Power Consumption in kW (Open Loop)",
+    "order": 22.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 702,
+    "property_id": 60,
+    "name": "Estimated Power Consumption in kW (Closed Loop)",
+    "order": 23.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 703,
+    "property_id": 60,
+    "name": "Maximum Power Intake load Open Loop during sea going (from 3.5%S > 0.5%S Equivalent)",
+    "order": 24.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 704,
+    "property_id": 60,
+    "name": "Maximum Power Intake load Open Loop during sea going (from 3.5%S > 0.1%S Equivalent)",
+    "order": 25.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 705,
+    "property_id": 60,
+    "name": "Maximum Power Intake load Open Loop during Manoeuvring (from 3.5%S > 0.5%S Equivalent)",
+    "order": 26.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 708,
+    "property_id": 60,
+    "name": "Maximum Power Intake load Close Loop during sea going (from 3.5%S > 0.1%S Equivalent)",
+    "order": 29.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 709,
+    "property_id": 60,
+    "name": "Maximum Power Intake load Close Loop during Manoeuvring (from 3.5%S > 0.5%S Equivalent)",
+    "order": 30.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 710,
+    "property_id": 60,
+    "name": "Maximum Power Intake load Close Loop during Manoeuvring (from 3.5%S > 0.1%S Equivalent)",
+    "order": 31.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 711,
+    "property_id": 60,
+    "name": "Deplume device available(To reduce white smoke)",
+    "order": 32.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 712,
+    "property_id": 60,
+    "name": "Short term IAPP certificate valid until",
+    "order": 33.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 713,
+    "property_id": 60,
+    "name": "Full term IAPP certificate valid until",
+    "order": 34.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 719,
+    "property_id": 60,
+    "name": "Maximum Power Intake load Open Loop during Manoeuvring (from 3.5%S > 0.1%S Equivalent)",
+    "order": 27.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 720,
+    "property_id": 60,
+    "name": "Maximum Power Intake load Close Loop during sea going (from 3.5%S > 0.5%S Equivalent)",
+    "order": 28.000,
+    "unit": "kW",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 721,
+    "property_id": 26,
+    "name": "ME SFOC at 75% MCR (ISO Corrected)",
+    "order": 15.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 722,
+    "property_id": 26,
+    "name": "Fuel Used to determine SFOC",
+    "order": 15.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 723,
+    "property_id": 32,
+    "name": "AE1-SFOC at 50%Load (ISO Corrected)",
+    "order": 9.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 724,
+    "property_id": 32,
+    "name": "AE1-Fuel Used to determine SFOC",
+    "order": 9.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 725,
+    "property_id": 33,
+    "name": "AE2-SFOC at 50%Load (ISO Corrected)",
+    "order": 9.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 726,
+    "property_id": 33,
+    "name": "AE2-Fuel Used to determine SFOC",
+    "order": 9.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 727,
+    "property_id": 44,
+    "name": "AE3-SFOC at 50%Load (ISO Corrected)",
+    "order": 9.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 728,
+    "property_id": 44,
+    "name": "AE3-Fuel Used to determine SFOC",
+    "order": 9.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 729,
+    "property_id": 46,
+    "name": "AE4-SFOC at 50%Load (ISO Corrected)",
+    "order": 9.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 730,
+    "property_id": 46,
+    "name": "AE4-Fuel Used to determine SFOC",
+    "order": 9.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 731,
+    "property_id": 47,
+    "name": "AE5-SFOC at 50%Load (ISO Corrected)",
+    "order": 9.000,
+    "unit": "g/kwh",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 732,
+    "property_id": 47,
+    "name": "AE5-Fuel Used to determine SFOC",
+    "order": 9.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 733,
+    "property_id": 27,
+    "name": "Retrofit_Manufacturer Of Propeller",
+    "order": 19.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 734,
+    "property_id": 27,
+    "name": "Retrofit_Type Of Propeller (FPP/CPP)",
+    "order": 20.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 735,
+    "property_id": 27,
+    "name": "Retrofit_Propeller Material",
+    "order": 21.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 736,
+    "property_id": 27,
+    "name": "Retrofit_Propeller No. of blades",
+    "order": 22.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": "^[0-9]+$"
+  },
+  {
+    "id": 737,
+    "property_id": 27,
+    "name": "Retrofit_Propeller Weight",
+    "order": 23.000,
+    "unit": "kg",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 738,
+    "property_id": 27,
+    "name": "Retrofit_Propeller Diameter",
+    "order": 24.000,
+    "unit": "mm",
+    "place_value": 0,
+    "validation_expression": "^([3-9]\\d{3}(\\.\\d+)?|1[0-4][0-9][0-9][0-9](\\.\\d+)?|15000(\\.\\d+)?)$"
+  },
+  {
+    "id": 739,
+    "property_id": 27,
+    "name": "Retrofit_Propeller Hydrodynamic Pitch (For slip Calculation)",
+    "order": 25.000,
+    "unit": "mm",
+    "place_value": 0,
+    "validation_expression": "^([3-9]\\d{3}(\\.\\d+)?|1[0-4][0-9][0-9][0-9](\\.\\d+)?|15000(\\.\\d+)?)$"
+  },
+  {
+    "id": 740,
+    "property_id": 27,
+    "name": "Retrofit_If CPP then the pitch at 100% settingh",
+    "order": 26.000,
+    "unit": "mm",
+    "place_value": 0,
+    "validation_expression": "^([3-9]\\d{3}(\\.\\d+)?|1[0-4][0-9][0-9][0-9](\\.\\d+)?|15000(\\.\\d+)|(^$)?)$"
+  },
+  {
+    "id": 741,
+    "property_id": 27,
+    "name": "Retrofit_CPP maximum setting with One ME clutch-in ( eco speed)",
+    "order": 27.000,
+    "unit": "%",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 742,
+    "property_id": 27,
+    "name": "Retrofit_CPP maximum setting with two MEs clutch-in",
+    "order": 28.000,
+    "unit": "%",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 743,
+    "property_id": 27,
+    "name": "Retrofit_Propeller Boss Cap Fin Fitted",
+    "order": 29.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 744,
+    "property_id": 27,
+    "name": "Propeller Retrofitted ?",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 747,
+    "property_id": 38,
+    "name": "Vessel Draft increased ? ",
+    "order": 33.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 748,
+    "property_id": 38,
+    "name": ".",
+    "order": 37.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 749,
+    "property_id": 1,
+    "name": "Design Speed @ scantling draft",
+    "order": 25.000,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 750,
+    "property_id": 1,
+    "name": "Design Speed @ design draft",
+    "order": 23.000,
+    "unit": "kn",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 751,
+    "property_id": 38,
+    "name": ".",
+    "order": 39.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 753,
+    "property_id": 23,
+    "name": "Scrubber Fitted (EGCS) ?",
+    "order": 24.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 754,
+    "property_id": 27,
+    "name": "Retrofit_Propeller silicone painted ?",
+    "order": 30.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 755,
+    "property_id": 56,
+    "name": "Reefer Sockets current installed powered by  Ship's Power + C/O Sys.",
+    "order": 1.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 756,
+    "property_id": 56,
+    "name": "Nr. of Reefer Sockets able to be powered with SAFE POWER  ",
+    "order": 1.200,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 757,
+    "property_id": 56,
+    "name": "Additional Reefer Sockets Planned for Installation_Deck",
+    "order": 1.300,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 758,
+    "property_id": 56,
+    "name": "Additional Reefer Sockets Planned for Installation_Cargo",
+    "order": 1.400,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 759,
+    "property_id": 56,
+    "name": "Auxiliary Engine LOAD for SAFE POWER reference only",
+    "order": 1.500,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 760,
+    "property_id": 60,
+    "name": "Ratio M/E and EGCS in open loop ( % )",
+    "order": 23.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 761,
+    "property_id": 60,
+    "name": "Ratio M/E and EGCS in close loop ( % )",
+    "order": 23.200,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 762,
+    "property_id": 49,
+    "name": "Remark",
+    "order": 6.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 763,
+    "property_id": 50,
+    "name": "Remark",
+    "order": 9.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 764,
+    "property_id": 38,
+    "name": "Is Russian stowage conversion planned?",
+    "order": 25.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 765,
+    "property_id": 38,
+    "name": "Has BWTS been Installed?",
+    "order": 26.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 770,
+    "property_id": 38,
+    "name": "if no, is USCG Exemption in place (until)",
+    "order": 34.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 769,
+    "property_id": 38,
+    "name": "Is vessel new panama fitting planned?",
+    "order": 31.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 768,
+    "property_id": 38,
+    "name": "Is BWTS installation planned?",
+    "order": 32.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 767,
+    "property_id": 38,
+    "name": "Is vessel New Panama Fitted?",
+    "order": 29.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 766,
+    "property_id": 38,
+    "name": "Is BWTS USCG Type Approved ?",
+    "order": 30.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 772,
+    "property_id": 38,
+    "name": "Is vessel suitable for New Zealand trade?",
+    "order": 38.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 773,
+    "property_id": 38,
+    "name": "Remarks (NZ Trade)",
+    "order": 40.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 783,
+    "property_id": 38,
+    "name": "Is vessel suitable for USA trade?",
+    "order": 50.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 782,
+    "property_id": 38,
+    "name": ".",
+    "order": 49.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 781,
+    "property_id": 38,
+    "name": "Remarks (Canada winter)",
+    "order": 48.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 780,
+    "property_id": 38,
+    "name": ".",
+    "order": 47.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 779,
+    "property_id": 38,
+    "name": "Is vessel suitable for Canada (Winter)?",
+    "order": 46.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 778,
+    "property_id": 38,
+    "name": ".",
+    "order": 45.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 777,
+    "property_id": 38,
+    "name": "Remarks (Canada summer)",
+    "order": 44.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 776,
+    "property_id": 38,
+    "name": ".",
+    "order": 43.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 775,
+    "property_id": 38,
+    "name": "Is vessel suitable for Canada (Summer)?",
+    "order": 42.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 774,
+    "property_id": 38,
+    "name": ".",
+    "order": 41.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 784,
+    "property_id": 38,
+    "name": ".",
+    "order": 51.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 785,
+    "property_id": 38,
+    "name": "Remarks (USA)",
+    "order": 52.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 786,
+    "property_id": 31,
+    "name": "When was hull last painted?",
+    "order": 1.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 787,
+    "property_id": 31,
+    "name": "When is next hull painting planned?",
+    "order": 2.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 788,
+    "property_id": 31,
+    "name": "Is Hull silicon painted?",
+    "order": 3.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 789,
+    "property_id": 31,
+    "name": "Paint Maker",
+    "order": 4.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 790,
+    "property_id": 31,
+    "name": "Paint Type",
+    "order": 5.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 791,
+    "property_id": 31,
+    "name": "Paint Scheme (period)",
+    "order": 6.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 792,
+    "property_id": 31,
+    "name": "When was hull last cleaned?",
+    "order": 17.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 793,
+    "property_id": 31,
+    "name": "When is next hull cleaning planned?",
+    "order": 18.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 794,
+    "property_id": 19,
+    "name": "Freshwater Draft",
+    "order": 11.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 795,
+    "property_id": 9,
+    "name": "Has Bulb been Replaced?",
+    "order": 33.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 796,
+    "property_id": 9,
+    "name": " Is bulb replacement Planned ?",
+    "order": 35.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 798,
+    "property_id": 60,
+    "name": "Is scrubber installation Planned ?",
+    "order": 1.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 799,
+    "property_id": 60,
+    "name": "scrubber installation planned date",
+    "order": 1.200,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 800,
+    "property_id": 60,
+    "name": "Planned scrubber maker?",
+    "order": 1.300,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 801,
+    "property_id": 60,
+    "name": "Planned scrubber type?",
+    "order": 1.400,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 797,
+    "property_id": 27,
+    "name": " If no, is replacement Planned ?",
+    "order": 1.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 802,
+    "property_id": 23,
+    "name": "Is cold ironing conversion planned?",
+    "order": 22.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 803,
+    "property_id": 27,
+    "name": "When was Propeller last cleaned ?",
+    "order": 31.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 804,
+    "property_id": 27,
+    "name": "When is next Propeller cleaning planned ?",
+    "order": 32.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 805,
+    "property_id": 26,
+    "name": "If T/C cut-out can be reversed?",
+    "order": 21.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 806,
+    "property_id": 38,
+    "name": "Remarks (MO 32)",
+    "order": 25.100,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 807,
+    "property_id": 38,
+    "name": "Remarks",
+    "order": 25.200,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 808,
+    "property_id": 9,
+    "name": "Weight of side ramp",
+    "order": 19.000,
+    "unit": "Tons",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 809,
+    "property_id": 9,
+    "name": "Is the vessel fitted with stern ramp",
+    "order": 21.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 810,
+    "property_id": 9,
+    "name": "Weight of stern ramp",
+    "order": 23.000,
+    "unit": "Tons",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 811,
+    "property_id": 9,
+    "name": ".",
+    "order": 32.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 812,
+    "property_id": 9,
+    "name": ".",
+    "order": 34.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 813,
+    "property_id": 9,
+    "name": ".",
+    "order": 36.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 814,
+    "property_id": 49,
+    "name": "No 2 Shaft Engine Makers",
+    "order": 10.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 815,
+    "property_id": 49,
+    "name": "No 2 Shaft Engine Type",
+    "order": 9.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  },
+  {
+    "id": 816,
+    "property_id": 49,
+    "name": "No 2 Shaft generator Capacity",
+    "order": 8.000,
+    "unit": "kW",
+    "place_value": 1,
+    "validation_expression": "^[0-9\\.,]+$"
+  },
+  {
+    "id": 817,
+    "property_id": 49,
+    "name": "No 2 Shaft generator present ?",
+    "order": 7.000,
+    "unit": "",
+    "place_value": 0,
+    "validation_expression": null
+  }
+]
